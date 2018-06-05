@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="main.KalkulatorFunkcjaUnitTest" time="0.281" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="ConEmuArgs2" value=""/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="OCAMLLIB" value="C:\OCaml\lib"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
+    <property name="aliases" value="C:\Program Files\cmder\config\user-aliases.cmd"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed"/>
+    <property name="user-aliases" value="C:\Program Files\cmder\config\user-aliases.cmd"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="ConEmuBaseDir" value="C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="IDEAPAD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CUDA_PATH" value="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0"/>
+    <property name="verbose-output" value="0 "/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_05"/>
+    <property name="JOB_NAME" value="Kalkulator"/>
+    <property name="COMPUTERNAME" value="IDEAPAD"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\"/>
+    <property name="ConEmuCfgDir" value="C:\Program Files\cmder\vendor\conemu-maximus5"/>
+    <property name="GIT_INSTALL_ROOT" value="C:\Program Files\Git"/>
+    <property name="user.name" value="Tomasz Jurkiewicz"/>
+    <property name="architecture" value="64"/>
+    <property name="ConEmuWorkDrive" value="C:"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="OCAMLFIND_CONF" value="C:\OCaml\etc\findlib.conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Tomasz Jurkiewicz\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Kalkulator/3/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-Kalkulator-3"/>
+    <property name="TERM" value="cygwin"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\Tomasz Jurkiewicz\.jenkins\war\WEB-INF\lib\remoting-3.17.jar C:\Users\Tomasz Jurkiewicz\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Tomasz Jurkiewicz\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51335"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b5aedf5c7575d903"/>
+    <property name="ConEmuHWND" value="0x00D90B44"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\cmder\bin;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\cmder\vendor\conemu-maximus5;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Tomasz Jurkiewicz\Desktop\Testowanie Oprogramowania\Lista 6\apache-maven-3.5.3\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PostgreSQL\10\bin;C:\Windows\System32\;C:\Users\Tomasz Jurkiewicz\Anaconda3;C:\Users\Tomasz Jurkiewicz\Anaconda3\Scripts;C:\Users\Tomasz Jurkiewicz\Anaconda3\Library\bin;C:\GTK\bin;C:\Ruby\bin;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\PostgreSQL\9.4\bin;C:\Python27\Scripts;C:\Users\Tomasz Jurkiewicz\AppData\Roaming\npm;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\cuDNN\bin;C:\Program Files\Racket;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Program Files\cmder\"/>
+    <property name="PLINK_PROTOCOL" value="ssh"/>
+    <property name="ConEmuPID" value="8540"/>
+    <property name="java.io.tmpdir" value="C:\Users\TOMASZ~1\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Tomasz Jurkiewicz\AppData\Roaming"/>
+    <property name="user.language" value="pl"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="ConEmuBackHWND" value="0x00AD0A52"/>
+    <property name="M2_HOME" value="C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="=C:" value="C:\Users\Tomasz Jurkiewicz\Desktop\Testowanie Oprogramowania\Lista 8"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="ANSICON" value="120x1000 (120x30)"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b5aedf5c7575d903"/>
+    <property name="MAVEN_HOME" value="C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="ConEmuPalette" value="Monokai"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Tomasz Jurkiewicz\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\Tomasz Jurkiewicz"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="maven3.interceptor" value="C:\Users\Tomasz Jurkiewicz\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin;C:\Program Files\cmder\bin;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\cmder\vendor\conemu-maximus5;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Tomasz Jurkiewicz\Desktop\Testowanie Oprogramowania\Lista 6\apache-maven-3.5.3\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PostgreSQL\10\bin;C:\Windows\System32\;C:\Users\Tomasz Jurkiewicz\Anaconda3;C:\Users\Tomasz Jurkiewicz\Anaconda3\Scripts;C:\Users\Tomasz Jurkiewicz\Anaconda3\Library\bin;C:\GTK\bin;C:\Ruby\bin;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\PostgreSQL\9.4\bin;C:\Python27\Scripts;C:\Users\Tomasz Jurkiewicz\AppData\Roaming\npm;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\cuDNN\bin;C:\Program Files\Racket;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Program Files\cmder\;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Kalkulator/3/display/redirect"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="JENKINS_HOME" value="C:\Users\Tomasz Jurkiewicz\.jenkins"/>
+    <property name="PYTHONIOENCODING" value="UTF-8"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="TEMP" value="C:\Users\TOMASZ~1\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
+    <property name="ConEmuDrawHWND" value="0x005C0968"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="HUDSON_HOME" value="C:\Users\Tomasz Jurkiewicz\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin"/>
+    <property name="GTK_BASEPATH" value="C:\Program Files (x86)\GtkSharp\2.12\"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="IDEAPAD"/>
+    <property name="PROMPT" value="C&amp;#8;L&amp;#8;I&amp;#8;N&amp;#8;K&amp;#8; &amp;#8;$P$G"/>
+    <property name="SMLNJ_HOME" value="C:\Program Files (x86)\SMLNJ\"/>
+    <property name="ConEmuTask" value="{cmd::Cmder}"/>
+    <property name="NVCUDASAMPLES8_0_ROOT" value="C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0"/>
+    <property name="ConEmuDir" value="C:\Program Files\cmder\vendor\conemu-maximus5"/>
+    <property name="DESKTOP" value="C:\Users\Tomasz Jurkiewicz\Desktop"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="NVTOOLSEXT_PATH" value="C:\Program Files\NVIDIA Corporation\NvToolsExt\"/>
+    <property name="SVN_SSH" value="C:\\Program Files\\Git\\bin\\ssh.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Tomasz Jurkiewicz"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Kalkulator/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Tomasz Jurkiewicz"/>
+    <property name="USERNAME" value="Tomasz Jurkiewicz"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="GNUPLOT_LIB" value="C:\Program Files (x86)\gnuplot\demo"/>
+    <property name="ConEmuDrive" value="C:"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Tomasz Jurkiewicz\Desktop\Testowanie Oprogramowania\Lista 8\Kalkulator ONP"/>
+    <property name="maven.conf" value="C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\conf"/>
+    <property name="ConEmuAnsiLog" value=""/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="ConEmuHooks" value="Enabled"/>
+    <property name="TMP" value="C:\Users\TOMASZ~1\AppData\Local\Temp"/>
+    <property name="ConEmuBuild" value="180206"/>
+    <property name="ConEmuWorkDir" value="C:\Users\Tomasz Jurkiewicz"/>
+    <property name="ConEmuBaseDirShort" value="C:\PROGRA~1\cmder\vendor\conemu-maximus5\ConEmu"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.5-b02"/>
+    <property name="java.class.path" value="C:\Users\Tomasz Jurkiewicz\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="ANSICON_DEF" value="7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ComSpec" value="C:\Windows\System32\cmd.exe"/>
+    <property name="WORKSPACE" value="C:\Users\Tomasz Jurkiewicz\.jenkins\workspace\Kalkulator"/>
+    <property name="ConEmuConfig" value=""/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="ConEmuArgs" value="/Icon &quot;C:\Program Files\cmder\icons\cmder.ico&quot; /Title Cmder /dir &quot;C:\Users\Tomasz Jurkiewicz&quot;"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ConEmuServerPID" value="12864"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_05-b13"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_05\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="NVCUDASAMPLES_ROOT" value="C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0"/>
+    <property name="ConEmuANSI" value="ON"/>
+    <property name="user.country" value="PL"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="maven.home" value="C:\Users\Tomasz Jurkiewicz\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="CMDER_ROOT" value="C:\Program Files\cmder"/>
+    <property name="JOB_BASE_NAME" value="Kalkulator"/>
+    <property name="CUDA_PATH_V8_0" value="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0"/>
+    <property name="HOME" value="C:\Users\Tomasz Jurkiewicz"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="test10" classname="main.KalkulatorFunkcjaUnitTest" time="0.031"/>
+  <testcase name="test11" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test12" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test13" classname="main.KalkulatorFunkcjaUnitTest" time="0.016"/>
+  <testcase name="test14" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test15" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test16" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test17" classname="main.KalkulatorFunkcjaUnitTest" time="0.016"/>
+  <testcase name="test18" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test19" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test1" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test2" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test3" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test4" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test5" classname="main.KalkulatorFunkcjaUnitTest" time="0.015"/>
+  <testcase name="test6" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test7" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test8" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+  <testcase name="test9" classname="main.KalkulatorFunkcjaUnitTest" time="0"/>
+</testsuite>

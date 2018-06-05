@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: zadanie4.Zadanie4Test
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.407 sec - in zadanie4.Zadanie4Test
